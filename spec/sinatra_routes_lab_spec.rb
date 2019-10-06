@@ -42,7 +42,6 @@ describe "Basic Routes Lab" do
     it "displays your favorite song" do
       expect(last_response.body).to include("My favorite song is ")
     end
-
   
   end
 end
